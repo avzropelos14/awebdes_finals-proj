@@ -178,3 +178,7 @@ body {
 .bg-black{
     border-radius: 40px;
 }
+
+.button{
+    width: 15vw;
+}
