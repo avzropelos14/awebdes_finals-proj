@@ -7,6 +7,11 @@
 
 body{
     margin: 0;
+    background-color: #725a46;
+}
+
+.header{
+    background-color: white;
 }
 
 .companyName{
@@ -50,4 +55,21 @@ body{
 .link-black:hover{
     color: #c93e3e;
     transition: all 0.5s ease;
+}
+
+.hero img{
+    width: 100%;
+}
+
+.hero-text{
+    font-size: 32px;
+    text-align: center;
+    background-color: #C29D9D75;
+    color: white;
+    width: 50vw;
+    padding:  20px;
+    border-radius: 25px;;
+    position: relative;
+    top: -100px;
+    left: 25vw;
 }
