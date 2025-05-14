@@ -12,6 +12,73 @@
             .companyName{
                 font-size: 40px;
             }
+
+            .member-card .tablet{
+                flex-direction: column !important;
+            }
+
+            .member-card .text-white{
+                width: 75%;
+            }
+
+            .member-card .left{
+                position: relative;
+                left: 270px;
+                width: 200px
+            }
+
+            .team-member{
+                position: absolute;
+                left: 0;
+                top: 0;
+            }
+        }
+
+        @media (max-width: 425px) {
+            .companyName{
+                display: none;
+            }
+
+            .logo{
+                width: 75px;
+            }
+
+            .member-card .left{
+                left: 212px;
+            }
+
+            .nav > li{
+                font-size: 12px;
+            }
+        }
+
+        @media (max-width: 375px) {
+            .member-card .left{
+                left: 90px;
+            }
+        }
+
+        @media (max-width: 320px){
+            .socials a{
+                font-size: 12px;
+            }
+
+            .member-card .left{
+                left: 60px;
+            }
+
+            .about-text{
+                font-size: 12px;
+                text-align: justify;
+            }
+
+            .about-card img{
+                width: 100px;
+            }
+
+            .about-card .px-5{
+                padding: 20px !important;
+            }
         }
     </style>
 </head>
@@ -56,7 +123,7 @@
             <div class="row d-flex justify-content-center">
                 <div class="d-flex flex-column align-items-center px-5">
                     <img src="images/logo.svg" alt="">
-                    <h1 class="about-title">About Us</h1>
+                    <h1 class="about-title text-center">About Us</h1>
                     <p class="about-text"><span class="fw-bold">Tambay Café</span> is more than just a coffee shop —
                         it's your local tambayan, a cozy spot where stories brew as easily as the coffee. We blend
                         Filipino warmth with rich, flavorful drinks and snacks, creating a welcoming space for students,
@@ -68,7 +135,7 @@
             <h1 class="text-center">Meet the Team 🌟</h1>
 
             <div class="member-card pt-5">
-                <div class="container d-flex justify-content-between">
+                <div class="container d-flex justify-content-between tablet">
                     <div class="left images">
                         <img src="images/chair.svg" alt="" class="chair">
                         <img src="images/Ellipse 9.png" alt="" class="team-member">
@@ -86,7 +153,7 @@
             </div>
 
             <div class="member-card pt-5">
-                <div class="container d-flex justify-content-between">
+                <div class="container d-flex justify-content-between tablet">
                     <div class="left images">
                         <img src="images/chair.svg" alt="" class="chair">
                         <img src="images/Ellipse 10.png" alt="" class="team-member">
@@ -104,7 +171,7 @@
                 </div>
 
                 <div class="member-card pt-5">
-                    <div class="container d-flex justify-content-between">
+                    <div class="container d-flex justify-content-between tablet">
                         <div class="left images">
                             <img src="images/chair.svg" alt="" class="chair">
                             <img src="images/Ellipse 11.png" alt="" class="team-member">
@@ -122,7 +189,7 @@
                 </div>
 
                 <div class="member-card pt-5">
-                    <div class="container d-flex justify-content-between">
+                    <div class="container d-flex justify-content-between tablet">
                         <div class="left images">
                             <img src="images/chair.svg" alt="" class="chair">
                             <img src="images/Ellipse 12.png" alt="" class="team-member">
@@ -140,7 +207,7 @@
                 </div>
 
                 <div class="member-card pt-5">
-                    <div class="container d-flex justify-content-between">
+                    <div class="container d-flex justify-content-between tablet">
                         <div class="left images">
                             <img src="images/chair.svg" alt="" class="chair">
                             <img src="images/Ellipse 13.png" alt="" class="team-member">
@@ -149,7 +216,7 @@
                             </div>
                         </div>
                         <div class="right">
-                            <div class="container bg-black text-white p-3 ">
+                            <div class="container bg-black text-white p-3">
                                 <h1 class="team-name text-center font-italic">Wireframe & Support</h1>
                                 <p class="team-text">Collaborates on layout planning and helps ensure a smooth, user-friendly structure.</p>
                             </div>
